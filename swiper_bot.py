@@ -1,3 +1,4 @@
+## Import Image for fomatting purposes
 from PIL import Image
 from env import azure_key,face_api_domain
 ###  here we setup everything regarding the chrome driver and the bot navigator
@@ -16,6 +17,7 @@ import face_recognition
 import numpy
 import cv2
 eye_frames=[]
+
 ## headers for the azure face api
 headers = {
     'Content-Type': 'application/octet-stream',
