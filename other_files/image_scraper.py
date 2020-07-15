@@ -43,7 +43,7 @@ def get_picture(name):
                         url=prop[23:len(prop)-2]
                         ## we download the images in the prefered folder
                         #print(url)
-                        urllib.request.urlretrieve(url,f"./pictures/{name}.jpg")
+                        urllib.request.urlretrieve(url,f"../pictures/{name}.jpg")
 
         except:
             continue

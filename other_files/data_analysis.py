@@ -4,7 +4,7 @@ import numpy
 import face_recognition
 import os
 from PIL import Image
-origin_folder="./pictures/working/other"
+origin_folder="../pictures/working/other"
 folder_paths = os.listdir(os.path.relpath(origin_folder))
 images=[]
 index=0
